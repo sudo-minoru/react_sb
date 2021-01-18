@@ -25,7 +25,7 @@ RaceSearchButton.propTypes = {
 };
 RaceSearchButton.defaultProps = {
   onClick: () => {},
-  loading: true,
+  loading: false,
 };
 
 export default RaceSearchButton;
