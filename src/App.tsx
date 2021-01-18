@@ -1,5 +1,6 @@
 import React from "react";
 import RaceSearchButton from "./components/atoms/button/RaceSearchButton";
+import RaceSearchText from "./components/atoms/text/RaceSearchText";
 import "semantic-ui-css/semantic.min.css";
 import "./App.css";
 
@@ -7,9 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <RaceSearchText />
         <RaceSearchButton></RaceSearchButton>
       </header>
     </div>
