@@ -11,7 +11,7 @@ const RaceSearchButton: React.FC<RaceSearchButtonProps> = ({
   onClick,
   loading,
 }) => (
-  <div>
+  <div style={{ display: "inline-block" }}>
     <Button icon labelPosition="left" onClick={onClick} loading={loading}>
       <Icon name="search plus" />
       大会検索
@@ -25,7 +25,7 @@ RaceSearchButton.propTypes = {
 };
 RaceSearchButton.defaultProps = {
   onClick: () => {},
-  loading: true,
+  loading: false,
 };
 
 export default RaceSearchButton;
